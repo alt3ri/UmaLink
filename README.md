@@ -21,7 +21,8 @@ A Node.js script to manage junction links for Umamusume game data directories.
    ```bash
    npm install
    ```
-6. Ensure you have administrator privileges to run the script, as it requires permissions to create symbolic links.
+6. Launch JP/GL client, make sure you are able to get in to the lobby, then copy Umamusume JP/GL from `C:\Users\YourPCUserName\AppData\LocalLow\Cygames\Umamusume` to `E:\\UmaJP\\Umamusume`/`E:\\UmaGL\\Umamusume`
+7. Ensure you have administrator privileges to run the script, as it requires permissions to create symbolic links.
    ```
    node link.js
    ```
